@@ -1,0 +1,77 @@
+#navbar {
+  width: 100%;
+  height: 10%;
+  background-color: red;
+}
+
+#top-parallax {
+  width: 100%;
+  height: 80%;
+  background-color: orange;
+}
+
+#bottom-parallax {
+  width: 100%;
+  height: 40%;
+  background-color: green;
+}
+
+#intro {
+  width: 100%;
+  height: 30%;
+  background-color: yellow;
+}
+
+#reviews {
+  width: 100%;
+  height: 30%;
+  background-color: blue;
+}
+
+#rides {
+  width: 100%;
+  height: 90%;
+  background-color: yellow;
+}
+
+#haunted-house {
+  width: 100%;
+  height: 30%;
+  background-color: red;
+}
+
+#merry-go-round {
+  width: 100%;
+  height: 30%;
+  background-color: red;
+}
+
+#kevins-kitchen {
+  width: 100%;
+  height: 30%;
+  background-color: red;
+}
+
+#prices-section {
+  width: 100%;
+  height: 10%;
+  background-color: red;
+}
+
+#list {
+  width: 20%;
+  height: 100%;
+  background-color: red;
+  float: left;
+}
+
+#offers {
+  width: 80%;
+  height: 10%;
+  background-color: red;
+  float: left;
+}
+
+body {
+  margin: 0;	
+}
