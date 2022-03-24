@@ -1,61 +1,83 @@
+/* 'float:left;' means that there will not be some random white space between divs. */
+
 #navbar {
   width: 100%;
-  height: 10%;
+  height: 5%;
   background-color: red;
+  float: left;
 }
 
 #top-parallax {
   width: 100%;
-  height: 80%;
+  height: 90%;
   background-color: orange;
+  float: left;
+  background-image: url('spin.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #bottom-parallax {
   width: 100%;
   height: 40%;
   background-color: green;
+  float: left;
+  background-image: url('bumper-cars.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #intro {
   width: 100%;
   height: 30%;
   background-color: yellow;
+  float: left;
 }
 
 #reviews {
   width: 100%;
   height: 30%;
   background-color: blue;
+  float: left;
 }
 
 #rides {
   width: 100%;
   height: 90%;
   background-color: yellow;
+  float: left;
 }
 
 #haunted-house {
   width: 100%;
   height: 30%;
   background-color: red;
+  float: left;
 }
 
 #merry-go-round {
   width: 100%;
   height: 30%;
   background-color: red;
+  float: left;
 }
 
 #kevins-kitchen {
   width: 100%;
   height: 30%;
   background-color: red;
+  float: left;
 }
 
 #prices-section {
   width: 100%;
   height: 10%;
   background-color: red;
+  float: left;
 }
 
 #list {
@@ -72,6 +94,24 @@
   float: left;
 }
 
+.title {
+	padding: 40px;
+	font-size: 100px;
+	color: #f14519;
+	/* text is red */
+}
+
 body {
-  margin: 0;	
+  margin: 0;
+  text-align: center;
+  background-color: #182901;
+  /* bg is green */
+}
+
+button {
+	width: 50%;
+	height: 100%;
+	line-height: 200%;
+	float: left;
+	text-align: center;
 }
